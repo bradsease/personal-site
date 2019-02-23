@@ -1,0 +1,35 @@
+version: "3"
+
+services:
+
+  index_server:
+    image: httpd:latest
+    volumes:
+      - ./index/public:/usr/local/apache2/htdocs
+    networks:
+      - web
+    restart: always
+    labels:
+      - "traefik.backend=index_server"
+      - "traefik.frontend.rule=Host:bradsease.com"
+      - "traefik.docker.network=web"
+      - "traefik.port=80"
+
+  ghost:
+    image: ghost:latest
+    restart: always
+    volumes:
+      - ./blog:/var/lib/ghost/content
+    environment:
+      - url=https://blog.bradsease.com
+    networks:
+      - web
+    labels:
+      - "traefik.backend=ghost"
+      - "traefik.frontend.rule=Host:blog.bradsease.com"
+      - "traefik.docker.network=web"
+      - "traefik.port=2368"
+
+networks:
+  web:
+    external: true

@@ -1,0 +1,80 @@
+baseurl = "https://bradsease.com"
+title = "bradsease"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Brad Sease, PhD"
+    info = "Aerospace Engineer"
+    description = "Brad Sease's personal website"
+    keywords = "space,engineer,resume,personal"
+    avatarurl = "images/profile_pic.png"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = ""
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+
+    math = false
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Email"
+    icon = "fa fa-envelope fa-2x"
+    weight = 1
+    url = "mailto:contact@bradsease.com"
+[[params.social]]
+    name = "Research Gate"
+    icon = "fa fa-graduation-cap fa-2x"
+    weight = 1
+    url = "https://researchgate.net/profile/Brad_Sease"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/bradsease"
+[[params.social]]
+    name = "Research Gate"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 1
+    url = "https://linkedin.com/in/bradsease/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/brad_sease"
+[[params.social]]
+    name = "Blog"
+    icon = "fa fa-blog fa-2x"
+    weight = 1
+    url = "https://blog.bradsease.com"
+
+# Menu links
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about/"
+[[menu.main]]
+    name = "Resume"
+    weight = 2
+    url = "/resume/"
+#[[menu.main]]
+#    name = "Missions"
+#    weight = 3
+#    url = "/resume/"
