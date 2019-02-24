@@ -1,5 +1,5 @@
 baseurl = "https://bradsease.com"
-title = "bradsease"
+title = ""
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -66,14 +66,14 @@ pygmentscodefencesguesssyntax = true
     url = "https://blog.bradsease.com"
 
 # Menu links
-[[menu.main]]
-    name = "About"
-    weight = 1
-    url = "/about/"
-[[menu.main]]
-    name = "Resume"
-    weight = 2
-    url = "/resume/"
+#[[menu.main]]
+#    name = "About"
+#    weight = 1
+#    url = "/about/"
+#[[menu.main]]
+#    name = "Resume"
+#    weight = 2
+#    url = "/resume/"
 #[[menu.main]]
 #    name = "Missions"
 #    weight = 3
