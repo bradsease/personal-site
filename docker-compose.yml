@@ -11,7 +11,7 @@ services:
     restart: always
     labels:
       - "traefik.backend=index_server"
-      - "traefik.frontend.rule=Host:bradsease.com"
+      - "traefik.frontend.rule=Host:bradsease.com,www.bradsease.com"
       - "traefik.docker.network=web"
       - "traefik.port=80"
 
