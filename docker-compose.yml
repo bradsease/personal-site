@@ -6,7 +6,7 @@ services:
     image: httpd:latest
     volumes:
       - ./index/public:/usr/local/apache2/htdocs
-      - ./httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./index/httpd.conf:/usr/local/apache2/conf/httpd.conf
     networks:
       - web
     restart: always
