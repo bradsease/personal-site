@@ -2,7 +2,7 @@ version: "3"
 
 services:
 
-  index_server:
+  index:
     image: nginx:latest
     volumes:
       - ./index/public:/usr/share/nginx/html
@@ -11,7 +11,7 @@ services:
       - web
     restart: always
     labels:
-      - "traefik.backend=index_server"
+      - "traefik.backend=index"
       - "traefik.frontend.rule=Host:www.bradsease.com"
       - "traefik.docker.network=web"
       - "traefik.port=90"
