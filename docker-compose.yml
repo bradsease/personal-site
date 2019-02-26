@@ -3,18 +3,18 @@ version: "3"
 services:
 
   index_server:
-    image: httpd:latest
+    image: nginx:latest
     volumes:
-      - ./index/public:/usr/local/apache2/htdocs
-      - ./index/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./index/public:/usr/share/nginx/html
+      - ./index/nginx.conf:/etc/nginx/nginx.conf
     networks:
       - web
     restart: always
     labels:
       - "traefik.backend=index_server"
-      - "traefik.frontend.rule=Host:bradsease.com,www.bradsease.com"
+      - "traefik.frontend.rule=Host:www.bradsease.com"
       - "traefik.docker.network=web"
-      - "traefik.port=80"
+      - "traefik.port=90"
       - "traefik.frontend.headers.forceSTSHeader=true"
       - "traefik.frontend.headers.STSPreload=true"
       - "traefik.frontend.headers.STSIncludeSubdomains=true"
