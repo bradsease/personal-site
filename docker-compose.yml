@@ -3,10 +3,10 @@ version: "3"
 services:
 
   index:
-    image: nginx:latest
+    image: nginxinc/nginx-unprivileged:latest
     volumes:
-      - ./index/public:/usr/share/nginx/html
-      - ./index/nginx.conf:/etc/nginx/nginx.conf
+      - ./index/public:/usr/share/nginx/html:ro
+      - ./index/bradsease.com.conf:/etc/nginx/conf.d/default.conf:ro
     networks:
       - web
     restart: always
@@ -14,7 +14,7 @@ services:
       - "traefik.backend=index"
       - "traefik.frontend.rule=Host:www.bradsease.com"
       - "traefik.docker.network=web"
-      - "traefik.port=90"
+      - "traefik.port=9090"
       - "traefik.frontend.headers.forceSTSHeader=true"
       - "traefik.frontend.headers.STSPreload=true"
       - "traefik.frontend.headers.STSIncludeSubdomains=true"
