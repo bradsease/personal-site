@@ -6,7 +6,7 @@ services:
     image: nginxinc/nginx-unprivileged:latest
     volumes:
       - ./index/public:/usr/share/nginx/html:ro
-      - ./index/bradsease.com.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./index/nginx.conf:/etc/nginx/conf.d/default.conf:ro
     networks:
       - web
     restart: always
