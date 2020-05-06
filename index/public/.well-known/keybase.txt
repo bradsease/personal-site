@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/bradsease
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.bradsease.com
+  * I am bradsease (https://keybase.io/bradsease) on keybase.
+  * I have a public key with fingerprint 9433 0D82 2F5B 84E8 226A  4A34 CEC3 48BA 7176 C54C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010127e3b4e0bf2e589804c2fd799f97f44293ee8462835a390abd1b23f64320b4680a",
+      "fingerprint": "94330d822f5b84e8226a4a34cec348ba7176c54c",
+      "host": "keybase.io",
+      "key_id": "cec348ba7176c54c",
+      "kid": "010127e3b4e0bf2e589804c2fd799f97f44293ee8462835a390abd1b23f64320b4680a",
+      "uid": "1bda8e44cf4e949b0a9d67e94dd66819",
+      "username": "bradsease"
+    },
+    "service": {
+      "hostname": "www.bradsease.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1588803380,
+  "expire_in": 157680000,
+  "prev": "ee7042069ae3ec915c911943ae0b78421283244ec76e6d8015fafced19628af1",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtQlFUYXmBBroKGCTvt0H5jEwjhdzn7XRaLDByIlhl2ICpJtu9yPvi47C57
+AVdFGaIZsQIvJKKF2NZMRRlqTUQ4kAyZyirjBEFSGWNMjgQESQ1J21lG+9XPzsyZ
+c857nvc5z/uc90BUkCo84MpAdk9V9aAx4PItQVV8ltm8CxOskhsz7MLK4coCKyTo
+cJrLFQkzYDiBEyQDKQFAXJBJqGc5FgciKUsMx8kcIwNAchSELKBJltLzFIfzgkQI
+JCXTgCJxAdAszmMpmKxYSqDdZlcsTkTLAYrCJZYkZb3AAog2NA94CohQpAAr8AzB
+0KIeiCix1OrwZyBxAu+AqYoVxdDBvCLvP/D/s27XCh0hSDwLARBlADnACTjPSTSD
+tpJE0yzB+YEOaLfwlRChBTsvOSBSi9WmYChcrYjQ76y/lHuQmpqa1H9hqaK1EjHY
+7FanVbRWoOtSp9PmMPjTnW7bCh4K5ntMZkGxSMhNlFEN7Q7FasEMBEKKTsVPTehZ
+lsUpisVTMLjDptihWfEj9AyqCA3/O7AaUcJiyOCAxGmOhxQUOUKPJoF+hkeWMSwg
+CeQMCQAUGRrSEosTepmXRSgRHPKMlwnMX1yVxYoZ9EgnX4I4HUqJhXe67Kjy8MZA
+Sq0KCFdpH9SpW6io+k1FDb9gZTngfgcGB/rbTxUeFnM/sjM0RnU4LOKB/oLnm/KE
+2JuRnYcCTnS9Wvd3bB+tefz4uqkP3H1tg8sNido3Jzr2K3HZtUPiQovNVel84dLW
+Dy9ueDkg7eTr64Mz85tj/8obVxXcmDceefvGTwXJdyKfCtQl3U3eVo3jtw/v0Wx3
+hK7PurgcXLexMGZ34kHT7PbkOU9xRpBaJ+Rj38d5ZywJOSHNewt9Rx+tz/zkR2Hf
+NeOcoyl9+lT/QVPbldlu00TazOCqxtqep11BGcnGj6J7/2RrQfHJko6Z0cAvl0/E
+d12LUY01zuR+Ork8PbZlTZblUETiO+96fFsG57Pu9E0lxR94f2xV2Det61p2L+ar
+teys3nx5xDDhu/RD2+japhHbWyHu02NH1+raXrzao1U1NrfnZkzGny+jtuZw5e/N
+/WZa8j3c8F36V1NLg6c3jp8Jan3iuQXKduzWzPyxofLFyImi9Cc1D12NKB1eo+Mv
+XMicSz93foOuNc/bnZVRdm7463aNccmdvFp5w/Tar9N5c949vSpPVUhnZfn13s3Z
+3Z87jAthESnazmcTKFc0XZS0if6i/6WbmrjrUaOmcG/FM+2LBR1xd2//XvyZmFM/
+/Nje49qBwpEdQ0k93ek+LF7v0eKP7NsGPVKwpmoWn0+Y8g6szg2L3mn7o6pLk6au
+mx13ubUed+i36paJ/flnc5Z/fmUyt6L/yJmPvfmnNP8A
+=Vmvg
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bradsease
+
+==================================================================
+
