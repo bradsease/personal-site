@@ -21,26 +21,6 @@ services:
       - traefik.http.routers.personal_site.tls.certresolver=letsencrypt_tls
       - traefik.http.services.personal_site.loadbalancer.server.port=9090
 
-  ghost:
-    image: ghost:latest
-    restart: always
-    volumes:
-      - ./blog:/var/lib/ghost/content
-    environment:
-      - url=https://blog.bradsease.com
-    networks:
-      - web
-    labels:
-      - traefik.enable=true
-      - traefik.http.routers.blog_http.entrypoints=http
-      - traefik.http.routers.blog_http.rule=Host(`blog.bradsease.com`)
-      - traefik.http.routers.blog_http.middlewares=ssl_redirect
-      - traefik.http.routers.blog.entrypoints=https
-      - traefik.http.routers.blog.rule=Host(`blog.bradsease.com`)
-      - traefik.http.routers.blog.middlewares=sts_headers
-      - traefik.http.routers.blog.tls.certresolver=letsencrypt_tls
-      - traefik.http.services.blog.loadbalancer.server.port=2368
-
 networks:
   web:
     external: true
